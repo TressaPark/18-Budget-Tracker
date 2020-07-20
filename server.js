@@ -4,7 +4,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 // const { init } = require("./models/transaction.js");
-const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI = process.env.MONGODB_ATLAS;
 const PORT = process.env.PORT || 3003;
 
 const app = express();
